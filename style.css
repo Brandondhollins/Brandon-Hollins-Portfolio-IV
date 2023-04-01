@@ -1,6 +1,13 @@
 /* styles.css */
 
 /* General styles */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: black;
     color: white;
@@ -46,16 +53,16 @@ body {
     
     /* Headings and typography */
     h1, h2 {
-    font-family: 'Tangerine', cursive;
-    font-weight: 400;
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: 400;
     }
     
     h1 {
-    font-size: 4rem;
+        font-size: 4rem;
     }
     
     h2 {
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
     
     /* Hero section */
