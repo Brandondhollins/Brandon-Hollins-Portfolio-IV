@@ -1,5 +1,10 @@
 /* styles.css */
-
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 /* General styles */
 body {
     background-color: black;
@@ -145,4 +150,4 @@ body {
     }
     
     /* Import the desired fantasy typeface from Google Fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+   
